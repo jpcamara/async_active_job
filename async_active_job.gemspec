@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'activejob'
-  spec.add_dependency 'async', '~> 1.0'
+  spec.add_dependency 'async', '~> 2.0'
   spec.add_dependency 'dry-cli', '~> 0.6'
   spec.metadata = {
     'rubygems_mfa_required' => 'true'
